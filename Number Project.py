@@ -6,7 +6,7 @@ inp = input ("Guess a number between 1 and 10: ")
 imp = int(inp)
 
 while random_int != imp:
-    print (imp)
+    print ('incorrect')
     if imp > random_int:
         print ('A little lower!')
     if imp < random_int:
@@ -14,4 +14,3 @@ while random_int != imp:
     inp = input ("Guess a number between 1 and 10: ")
 
 print ('correct!')
-    
