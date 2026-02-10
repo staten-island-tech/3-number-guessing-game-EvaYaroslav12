@@ -14,6 +14,7 @@ while random_int != imp:
         print ('A little higher!')
     inp = input ("Guess a number between 1 and 10: ")
     imp = int(inp)
-
+    
+user_list.append(random_int)
 print ('correct!')
 print ('your guesses: ', user_list)
